@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  Test_groups</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_groups</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 03 13:48:30 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14196 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>retesting </td>
+</tr><tr>
+<td>Excluded groups:</td><td>sanity </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Inventory_page_2test.remove2ProductsTest()'><b>remove2ProductsTest</b><br>Test class: testcases.Inventory_page_2test<br/>
+<a href="#Output-762722278" onClick='toggleBox("Output-762722278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-762722278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-762722278">
+count of product after removing = 4<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testcases.Inventory_page_2test@a82c5f1</td></tr>
+<tr>
+<td title='testcases.LoginpageTest.loginToApplication()'><b>loginToApplication</b><br>Test class: testcases.LoginpageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginpageTest@14008db3</td></tr>
+<tr>
+<td title='testcases.Inventory_page_2test.verityfooterLinkTest()'><b>verityfooterLinkTest</b><br>Test class: testcases.Inventory_page_2test<br/>
+<a href="#Output-528012309" onClick='toggleBox("Output-528012309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-528012309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-528012309">
+text of footer link© 2024 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.Inventory_page_2test@a82c5f1</td></tr>
+</table><p>
+</body>
+</html>

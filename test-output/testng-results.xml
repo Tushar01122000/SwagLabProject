@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="8" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[count of product after removing = 4]]>
+    </line>
+    <line>
+      <![CDATA[text of footer link© 2024 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-03T13:48:30 IST" name="Suite_groups" finished-at="2024-01-03T13:48:44 IST" duration-ms="14196">
+    <groups>
+      <group name="retesting">
+        <method signature="Inventory_page_2test.remove2ProductsTest()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" name="remove2ProductsTest" class="testcases.Inventory_page_2test"/>
+        <method signature="Inventory_page_2test.verityfooterLinkTest()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" name="verityfooterLinkTest" class="testcases.Inventory_page_2test"/>
+        <method signature="LoginpageTest.loginToApplication()[pri:0, instance:testcases.LoginpageTest@14008db3]" name="loginToApplication" class="testcases.LoginpageTest"/>
+      </group> <!-- retesting -->
+    </groups>
+    <test started-at="2024-01-03T13:48:30 IST" name="Test_groups" finished-at="2024-01-03T13:48:44 IST" duration-ms="14196">
+      <class name="testcases.LoginpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginpageTest@14008db3]" started-at="2024-01-03T13:48:40 IST" name="setup" finished-at="2024-01-03T13:48:43 IST" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginToApplication()[pri:0, instance:testcases.LoginpageTest@14008db3]" started-at="2024-01-03T13:48:43 IST" name="loginToApplication" finished-at="2024-01-03T13:48:44 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="closeBroweser(org.testng.ITestResult)[pri:0, instance:testcases.LoginpageTest@14008db3]" started-at="2024-01-03T13:48:44 IST" name="closeBroweser" finished-at="2024-01-03T13:48:44 IST" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=LoginpageTest.loginToApplication()[pri:0, instance:testcases.LoginpageTest@14008db3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroweser -->
+      </class> <!-- testcases.LoginpageTest -->
+      <class name="testcases.Inventory_page_2test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" started-at="2024-01-03T13:48:30 IST" name="setup" finished-at="2024-01-03T13:48:34 IST" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="remove2ProductsTest()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" started-at="2024-01-03T13:48:34 IST" name="remove2ProductsTest" finished-at="2024-01-03T13:48:37 IST" duration-ms="3662" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[count of product after removing = 4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- remove2ProductsTest -->
+        <test-method is-config="true" signature="closeBroweser()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" started-at="2024-01-03T13:48:37 IST" name="closeBroweser" finished-at="2024-01-03T13:48:37 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroweser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" started-at="2024-01-03T13:48:37 IST" name="setup" finished-at="2024-01-03T13:48:40 IST" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verityfooterLinkTest()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" started-at="2024-01-03T13:48:40 IST" name="verityfooterLinkTest" finished-at="2024-01-03T13:48:40 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[text of footer link© 2024 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verityfooterLinkTest -->
+        <test-method is-config="true" signature="closeBroweser()[pri:0, instance:testcases.Inventory_page_2test@a82c5f1]" started-at="2024-01-03T13:48:40 IST" name="closeBroweser" finished-at="2024-01-03T13:48:40 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroweser -->
+      </class> <!-- testcases.Inventory_page_2test -->
+    </test> <!-- Test_groups -->
+  </suite> <!-- Suite_groups -->
+</testng-results>
